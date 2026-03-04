@@ -83,15 +83,14 @@ platforms:
       name: "金十数据"
     - id: "kaopu"
       name: "靠谱新闻"
-  # === 科技类平台 ===
-   - id: "ithome"
-     name: "IT之家"
-   - id: "juejin"
-     name: "掘金"
-   - id: "v2ex"
-     name: "V2EX"
-   - id: "sspai"
-     name: "少数派"
+    - id: "ithome"
+      name: "IT之家"
+    - id: "juejin"
+      name: "掘金"
+    - id: "v2ex"
+      name: "V2EX"
+    - id: "sspai"
+      name: "少数派"
 
 # ===============================================================
 # 3. 数据源 - RSS 订阅
