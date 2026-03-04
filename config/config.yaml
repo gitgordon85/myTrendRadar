@@ -77,20 +77,8 @@ platforms:
       name: "抖音"
     - id: "zhihu"
       name: "知乎"
-    - id: "xueqiu"
-      name: "雪球"
-    - id: "jin10"
-      name: "金十数据"
-    - id: "kaopu"
-      name: "靠谱新闻"
-    - id: "ithome"
-      name: "IT之家"
-    - id: "juejin"
-      name: "掘金"
-    - id: "v2ex"
-      name: "V2EX"
-    - id: "sspai"
-      name: "少数派"
+
+
 
 # ===============================================================
 # 3. 数据源 - RSS 订阅
@@ -474,7 +462,7 @@ ai_analysis:
 # 模型配置见上方 ai 配置段
 # ===============================================================
 ai_translation:
-  enabled: true                    # 是否启用翻译功能
+  enabled: false                    # 是否启用翻译功能
 
   # 翻译目标语言
   # 格式：自然语言描述
