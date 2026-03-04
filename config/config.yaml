@@ -77,8 +77,21 @@ platforms:
       name: "抖音"
     - id: "zhihu"
       name: "知乎"
-
-
+    - id: "xueqiu"
+      name: "雪球"
+    - id: "jin10"
+      name: "金十数据"
+    - id: "kaopu"
+      name: "靠谱新闻"
+  # === 科技类平台 ===
+   - id: "ithome"
+     name: "IT之家"
+   - id: "juejin"
+     name: "掘金"
+   - id: "v2ex"
+     name: "V2EX"
+   - id: "sspai"
+     name: "少数派"
 
 # ===============================================================
 # 3. 数据源 - RSS 订阅
@@ -155,7 +168,7 @@ rss:
 #    • 适用场景：避免重复信息干扰
 # ===============================================================
 report:
-  mode: "current"                     # 可选: daily | current | incremental
+  mode: "incremental"                     # 可选: daily | current | incremental
                                       # ⚠️ 开启调度系统后，此值会被当前时间段的 report_mode 覆盖
 
 
